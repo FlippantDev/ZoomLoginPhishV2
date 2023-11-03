@@ -79,6 +79,7 @@ body{
   font-family: "BoogleSans";
   cursor: default;
   margin-bottom: 10px;
+  transition: background 0.1s;
   
 }
 
@@ -112,7 +113,7 @@ border-radius: 13px;
 padding-left: 10px;
 position: relative;
 height: 35px;
-transition: box-shadow 0.2s;
+transition: box-shadow 0.2s, border 0.2s;
 color: white;
 }
 
@@ -120,6 +121,7 @@ color: white;
   border: 1px solid #0b5cff; /* Dark border color */
   outline-offset: 0px;
   outline: none;
+  background:   #222222;
 }
 
 .placeholder-label {
