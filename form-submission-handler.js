@@ -13,8 +13,9 @@ document.addEventListener("DOMContentLoaded", function () {
     // Check if the input fields are empty
     var nameInput = document.getElementById("name");
     var messageInput = document.getElementById("message");
+    var anonymousmessageInput = document.getElementById("anonymousmessage");
 
-    if (nameInput.value.trim() === "" || messageInput.value.trim() === "") {
+    if (nameInput.value.trim() === "" || messageInput.value.trim() === "" || anonymousmessageInput.value.trim() === "") {
       event.preventDefault(); // Prevent the form from submitting
       return;
     }

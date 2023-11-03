@@ -37,7 +37,7 @@ html{
 
 body{
   justify-content: center;
-  background-color: #202020; /* Dark background color */
+  background-color: #e94840; /* Dark background color */
   font-family: 'BoogleSans';
 }
 
@@ -67,24 +67,26 @@ body{
 }
 
 .button-success {
-  background: #0b5cff;
+  background: linear-gradient(135deg, #ee1d7c, #fb7824);
   color: white;
   border: none;
-  border-radius: 7px;
-  font-size: 15px;
-  padding: 8px; /* Increased padding for the button */
-  display: block; /* To center-align the button */
-  margin: 0 auto; /* To center-align the button */
+  border-radius: 25px;
+  font-size: 30px;
+  padding: 8px;
+  display: block;
+  margin: 0 auto;
   width: 270px;
-  font-family: "BoogleSans";
-  cursor: default;
+  font-family: "InstaFont";
+  cursor: pointer;
   margin-bottom: 10px;
   transition: background 0.1s;
+  border: #000000 5px solid;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.541); /* Add a clean box shadow */
   
 }
 
 .button-success:hover {
-  background: #0853e9;
+  background: linear-gradient(135deg, #fb762473, #ee1d7b7c);
 }
 
 .pure-group input {
@@ -95,7 +97,7 @@ body{
 }
 
 .pure-group{
-  border: 1px solid #202020;
+  border: 1px solid #e94840;
   border-radius: 3px;
   font-size: 1em;
 }
@@ -105,23 +107,25 @@ body{
   margin-top: 1em;
 }
 
-.form-input{
+.form-input {
   margin-bottom: 2px;
-  border: 1px solid #666666; /* Dark border color */
-background:   #202020;
-border-radius: 13px;
-padding-left: 10px;
-position: relative;
-height: 35px;
-transition: box-shadow 0.2s, border 0.2s;
-color: white;
+  border: 1px solid #ffffff; /* Dark border color */
+  background: #ffffff;
+  border-radius: 2px;
+  padding-left: 10px;
+  position: relative;
+  height: 35px;
+  transition: box-shadow 0.2s, border 0.2s;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.541); /* Add a clean box shadow */
 }
 
+
 .form-input:focus{
-  border: 1px solid #0b5cff; /* Dark border color */
+  border: linear-gradient(135deg, #ee1d7c, #fb7824); /* Dark border color */
   outline-offset: 0px;
   outline: none;
-  background:   #222222;
 }
 
 .placeholder-label {
@@ -138,9 +142,9 @@ color: white;
 .logo{
   display:block;
 margin: 0 auto 5px;
-height: 50px;
+height: 20px;
 font-family: "InstaFont";
-color: white;
+color: rgb(0, 0, 0);
 font-size: 50px;
 text-align: center;
 margin-bottom: 50px;
