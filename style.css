@@ -347,6 +347,10 @@ form.option{
   height: 23px;
 }
 
+.message-text img {
+  height: 23px;
+}
+
 /* Add animation to fade out the preloader */
 .fade-out {
   opacity: 0;
